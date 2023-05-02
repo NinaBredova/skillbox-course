@@ -1,49 +1,126 @@
-@font-face {
-  font-family: 'Graphik LCG';
-  src: url('../fonts/GraphikLCG-Medium.woff2') format('woff2'),
-    url('../fonts/GraphikLCG-Medium.woff') format('woff');
-  font-display: swap;
-  font-weight: 500;
-  font-style: normal;
+.table_tag {
+  margin-top: 100px;
+  border: 3px solid #000;
+  border-collapse: collapse;
 }
 
-@font-face {
-  font-family: 'Gilroy';
-  src: url('../fonts/Gilroy-Regular.woff2') format('woff2'),
-    url('../fonts/Gilroy-Regular.woff') format('woff');
-  font-display: swap;
-  font-weight: normal;
-  font-style: normal;
+.table_tag th, td {
+  border: 3px solid #000;
+  padding: 5px;
 }
 
-@font-face {
-  font-family: 'Gilroy';
-  src: url('../fonts/Gilroy-ExtraBold.woff2') format('woff2'),
-    url('../fonts/Gilroy-ExtraBold.woff') format('woff');
-  font-display: swap;
-  font-weight: 800;
-  font-style: normal;
+.end {
+  text-align: center;
 }
 
-@font-face {
-  font-family: 'Gilroy';
-  src: url('../fonts/Gilroy-Medium.woff2') format('woff2'),
-    url('../fonts/Gilroy-Medium.woff') format('woff');
-  font-display: swap;
-  font-weight: 500;
-  font-style: normal;
+
+ .main_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #222020;
 }
 
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: 'Gilroy', sans-serif;
-}
-
-a {
-  color: inherit;
+.main_content .title a {
+  padding-left: 150px;
   text-decoration: none;
+  color: white;
+  margin-bottom: 25px;
+  font-family: 'GraphikLCG', sans-serif;
+  font-weight: medium;
+}
+
+.main_content .container {
+  display: flex;
+}
+
+
+
+.main_content .sub_title1 a{
+  text-decoration: none;
+  padding: 20px;
+  color: white;
+  background-color: #2f1ce4;
+  border: 3px solid #2f1ce4;
+  font-family: 'GraphikLCG', sans-serif;
+}
+
+.main_content .sub_title2 a{
+  margin-left: 5px;
+  text-decoration: none;
+  padding: 20px;
+  color: white;
+  border: 3px solid white;
+  font-family: 'GraphikLCG', sans-serif;
+}
+
+.course_info .container {
+  width: 1170px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.course_info .back_up {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.course_info .back_up a {
+  color: black;
+  text-decoration: none;
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 100px;
+}
+
+.course_info .back_up .down {
+  width: 10px;
+}
+
+.course_info .container .title {
+  padding-left: 100px;
+  margin-top: 100px;
+  font-family: 'GraphikLCG', sans-serif;
+  font-size: 48px;
+  color: #222020;
+}
+
+.course_info h2 {
+  padding-left: 180px;
+  font: 38px;
+  color: #2f1ce4;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  font-family: 'GraphikLCG', sans-serif;
+
+}
+
+.course_info .container ol, ul {
+  padding-left: 180px;
+  font-size: 18px;
+  font-family: 'GraphikLCG', sans-serif;
+}
+
+.course_info .container a {
+  text-decoration: none;
+}
+
+.course_info p {
+  padding-left: 180px;
+  margin-top: 20px;
+  font-family: 'GraphikLCG', sans-serif;
+
+}
+
+.course_info figure {
+  padding-left: 200px;
+  display: inline-block;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.course_info figcaption {
+  text-align: center;
 }
