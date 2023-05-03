@@ -63,23 +63,24 @@
   padding-bottom: 30px;
 }
 
-.course_info .back_up {
+.back_up {
   width: 1170px;
   margin: 0 auto;
 }
 
-.course_info .back_up a {
+.back_up a {
   color: black;
   text-decoration: none;
   font-family: 'Gilroy', sans-serif;
   font-weight: 100px;
 }
 
-.course_info .back_up .down {
-  width: 10px;
+.back_up .down {
+  width: 15px;
+  padding-right: 10px;
 }
 
-.course_info .container .title {
+.container .title {
   padding-left: 100px;
   margin-top: 100px;
   font-family: 'GraphikLCG', sans-serif;
@@ -123,4 +124,22 @@
 
 .course_info figcaption {
   text-align: center;
+}
+
+.modules {
+  width: 1180px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.text-logo {
+  font-family: 'GraphikLCG', sans-serif;
+  font-weight: 400px;
+  font-size: 32px;
+  padding-bottom: 30px;
+}
+
+.modules .container .title h1 {
+  font-size: 50px;
 }
